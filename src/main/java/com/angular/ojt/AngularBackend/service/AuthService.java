@@ -4,10 +4,8 @@ import java.util.HashMap;
 
 import com.angular.ojt.AngularBackend.entity.Employee;
 
-public interface RegistrationService {
+public interface AuthService {
 
-//	public HashMap loginUser(Employee employee);
-
-	
+	public HashMap<String, Employee> loginEmp(String username, String password);
 
 }
