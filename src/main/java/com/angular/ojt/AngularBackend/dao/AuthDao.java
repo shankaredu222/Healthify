@@ -2,8 +2,8 @@ package com.angular.ojt.AngularBackend.dao;
 
 import com.angular.ojt.AngularBackend.entity.Employee;
 
-public interface RegistrationDao {
+public interface AuthDao {
 
-//	Employee loginUser(Employee employee);
+	public Employee getUserByUsername(String username);
 
 }
